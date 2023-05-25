@@ -1,6 +1,6 @@
 # MAPLE
 
-Code for Mahalanobis-Distance-based Uncertainty Prediction for Reliable Classification
+Code for Self-Supervised Gaussian Regularization of Deep Classifiers for Mahalanobis-Distance-Based Uncertainty Estimation
   
 
 ## Dataset
@@ -41,5 +41,14 @@ To launch the inference, run
 python3 mahalanobis_calculation.py
 ```
 This calculates the Mahalanobis distance and the prediction probability for both the in distribution and out of distribution dataset, and computes the metrics.
+
+To cite this code:
+```
+@article{venkataramanan2023self,
+  title={Self-Supervised Gaussian Regularization of Deep Classifiers for Mahalanobis-Distance-Based Uncertainty Estimation},
+  author={Venkataramanan, Aishwarya and Benbihi, Assia and Laviale, Martin and Pradalier, C{\'e}dric},
+  year={2023}
+}
+```
 
 
