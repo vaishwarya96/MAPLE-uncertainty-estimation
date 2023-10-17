@@ -1,6 +1,6 @@
 # MAPLE
 
-Code for Self-Supervised Gaussian Regularization of Deep Classifiers for Mahalanobis-Distance-Based Uncertainty Estimation
+Code for "Gaussian Latent Representations for Uncertainty Estimation Using Mahalanobis Distance in Deep Classifiers", ICCV Workshop 2023.
   
 
 ## Dataset
@@ -42,11 +42,16 @@ python3 mahalanobis_calculation.py
 ```
 This calculates the Mahalanobis distance and the prediction probability for both the in distribution and out of distribution dataset, and computes the metrics.
 
-To cite this code:
+If you use this code, please cite the following paper:
+
+Aishwarya Venkataramanan, Assia Benbihi, Martin Laviale, Cedric Pradalier. Gaussian Latent Representations for Uncertainty Estimation using Mahalanobis Distance in Deep Classifiers. In Proceedings of the IEEE/CVF International Conference on Computer Vision. 2023. p. 4488-4497.
+
 ```
-@article{venkataramanan2023self,
-  title={Self-Supervised Gaussian Regularization of Deep Classifiers for Mahalanobis-Distance-Based Uncertainty Estimation},
+@inproceedings{venkataramanan2023gaussian,
+  title={Gaussian Latent Representations for Uncertainty Estimation using Mahalanobis Distance in Deep Classifiers},
   author={Venkataramanan, Aishwarya and Benbihi, Assia and Laviale, Martin and Pradalier, C{\'e}dric},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={4488--4497},
   year={2023}
 }
 ```
