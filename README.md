@@ -28,6 +28,7 @@ Before launching the training, please make sure that the dataset paths and the i
 
 ## Training
 
+The necessary python libraries and their versions to run the code are specified in `requirements.txt`. 
 The hyperparameters and arguments needed for training the network are available in `config.py`. Depending on the dataset used, please make sure to change the respective hyperparameters. 
 To launch the training, run 
 ```
