@@ -23,7 +23,7 @@ The dataset is arranged such that each class has a directory with the correspond
 ```
 Each dataset is followed by a csv file containing the class name and the corresponding classification label. An example for CIFAR10 is given in `data/cifar10.csv`.
 
-The dataset paths and the id paths (csv files) should be included in the `config.py`. 
+Before launching the training, please make sure that the dataset paths and the id paths (csv files) are included in the `config.py`. 
 
 
 ## Training
