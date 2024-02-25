@@ -28,19 +28,19 @@ Before launching the training, please make sure that the dataset paths and the i
 
 ## Training
 
-The hyperparameters and arguments needed for training the network are available in `config.py`.
+The hyperparameters and arguments needed for training the network are available in `config.py`. Depending on the dataset used, please make sure to change the respective hyperparameters. 
 To launch the training, run 
 ```
 python3 train.py
 ```
-The code automatically splits the dataset into train and validation. 
+The code automatically splits the dataset into train and validation.
 
 ## Inference
 To launch the inference, run
 ```
 python3 mahalanobis_calculation.py
 ```
-This calculates the Mahalanobis distance and the prediction probability for both the in distribution and out of distribution dataset, and computes the metrics.
+This calculates the Mahalanobis distance and the prediction probability for both the in distribution and out of distribution dataset, and computes the in distribution and out-of-distribution metrics.
 
 If you use this code, please cite the following paper:
 
