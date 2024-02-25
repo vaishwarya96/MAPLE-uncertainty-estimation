@@ -40,7 +40,7 @@ To launch the inference, run
 ```
 python3 mahalanobis_calculation.py
 ```
-This calculates the Mahalanobis distance and the prediction probability for both the in distribution and out of distribution dataset, and computes the in distribution and out-of-distribution metrics.
+This calculates the Mahalanobis distance and the prediction probability for both the in distribution and out-of-distribution dataset, and computes the in distribution and out-of-distribution metrics.
 
 If you use this code, please cite the following paper:
 
